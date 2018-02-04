@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>O365_DWCInteractiveDT_USA_970x250_RMB_O365_All_NA_Standard_HIS_LM_NA_1</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<meta name="ad.size" content="width=970,height=250">
+		<link type="text/css" rel="stylesheet" media="screen, projection" href="css/styles.css" />
+	</head>
+	<body>
+		<div id="wrapper">		
+			<!-- start adding banner elements below this line-->
+
+			<div id="introVid_holder" class="video_holder">
+				<ft-video id="introVid" class="videoClass" name="video1" clicktag="1" autoplay muted></ft-video>
+			</div>
+
+			<div id="introMorph3DVid_holder" class="video_holder">
+				<ft-video id="introMorph3DVid" class="videoClass" name="video2" clicktag="1" muted></ft-video>
+			</div>
+
+			<div id="introTeamsVid_holder" class="video_holder">
+				<ft-video id="introTeamsVid" class="videoClass" name="video3" clicktag="1" muted></ft-video>
+			</div>
+
+			<div id="introDesignerVid_holder" class="video_holder">
+				<ft-video id="introDesignerVid" class="videoClass" name="video4" clicktag="1" muted></ft-video>
+			</div>
+
+			<div id="endFrameVid_holder" class="video_holder">
+				<ft-video id="endFrameVid" class="videoClass" name="video5" clicktag="1" muted></ft-video>
+			</div>
+
+			<div id="endFrame_BG"></div>
+			<div id="logo"></div>
+			<div id="endFrame_copy"></div>
+			<div id="cta"></div>
+
+			<div id="clickThrough"></div>
+
+			<div id="replayBtn">
+				<svg x="0px" y="0px" width="22px" height="26px" viewBox="0 0 73.5 86">
+					<path fill="#d83b01" d="M72.7,36.3c0-19.8-16.1-35.9-35.9-35.9S0.8,16.5,0.8,36.3c0,10,4,19.2,11.2,26.1c1.6,1.5,4.1,1.4,5.7-0.2c1.5-1.6,1.4-4.1-0.2-5.7c-5.6-5.3-8.7-12.5-8.7-20.3c0-15.4,12.5-27.9,27.9-27.9s27.9,12.5,27.9,27.9c0,14.4-10.9,26.3-24.9,27.7l6.3-9.3c1.2-1.8,0.8-4.3-1.1-5.6c-1.8-1.2-4.3-0.8-5.6,1.1L26.1,69.9l19,14.8c0.7,0.6,1.6,0.8,2.5,0.8c1.2,0,2.4-0.5,3.2-1.5c1.4-1.7,1-4.3-0.7-5.6l-8.4-6.6C59.1,69.5,72.7,54.5,72.7,36.3z"/>
+				</svg>
+			</div>
+
+			<div id="teamsMainVid_holder" class="video_holder">
+				<ft-video id="teamsMainVid" class="videoClass" name="video6" clicktag="1" muted></ft-video>
+			</div>
+
+			<div id="designerMainVid_holder" class="video_holder">
+				<ft-video id="designerMainVid" class="videoClass" name="video7" clicktag="1" muted></ft-video>
+			</div>
+
+			<div id="morph3D_holder">
+				<div id="morph3D_BG"></div>
+				<div id="morph3DModel"></div>
+				<div id="frameGrabber"></div>
+				<div id="morph3D_copy"></div>
+			</div>
+			
+			<div id="mainMenu">
+				<div id="menuBtn1" class="menuBtn">
+					<div id="menuBtn1_copy"></div>
+				</div>
+				<div id="menuBtn2" class="menuBtn">
+					<div id="menuBtn2_copy"></div>
+				</div>
+				<div id="menuBtn3" class="menuBtn">
+					<div id="menuBtn3_copy"></div>
+				</div>
+			</div>
+
+			<div id="backBtn"></div>
+
+		</div>
+
+		<script>
+
+			Number.isInteger = Number.isInteger || function(value) {
+	    		return typeof value === "number" && 
+	           	isFinite(value) && 
+	           	Math.floor(value) === value;
+			};
+
+			// Here to prevent any console logs form happening in any of the files loaded
+			console.log = function() {};
+
+		</script>
+
+		<script src="https://cdn.flashtalking.com/frameworks/js/gsap/latest/TweenMax.min.js"></script>
+		
+		<script src="https://cdn.flashtalking.com/frameworks/js/threejs/r83/three.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/OrbitControls.js"></script>
+
+		<script type="text/javascript" src="js/index.js"></script>
+		
+		<script type="text/javascript">
+			window.onload = function() {
+				CraftWW.init();
+			};
+		</script>
+	</body>
+</html>

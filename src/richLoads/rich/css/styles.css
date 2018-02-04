@@ -1,0 +1,166 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+*, :before, :after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.abs-pos, #wrapper, #clickThrough, .video_holder, #videoClass, #morph3D_holder, #morph3D_BG, #morph3D_copy, #frameGrabber, #mainMenu, .menuBtn, #menuBtn1_copy, #menuBtn2_copy, #menuBtn3_copy, #endFrame_BG, #logo, #endFrame_copy, #cta {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 970px;
+  height: 250px;
+  overflow: hidden; }
+
+#wrapper {
+  position: relative;
+  visibility: hidden;
+  border: 1px solid #000000; }
+  #wrapper.show {
+    visibility: visible; }
+
+#clickThrough {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0); }
+
+/* video elements */
+.video_holder {
+  background-color: #000000; }
+
+/*3D frame*/
+#morph3D_BG {
+  background: url("../img/morph3D_BG.jpg") no-repeat; }
+
+#morph3D_copy {
+  pointer-events: none;
+  background: url("../img/morph3D_copy.png") no-repeat; }
+
+#frameGrabber {
+  pointer-events: none;
+  background: url("../img/frameGrabber.png") no-repeat; }
+
+/*main menu*/
+#mainMenu {
+  pointer-events: none; }
+
+.menuBtn {
+  width: 162px;
+  height: 44px;
+  background-color: #d83b01;
+  pointer-events: auto;
+  cursor: pointer; }
+
+#menuBtn1 {
+  top: 55px; }
+
+#menuBtn1_copy {
+  width: 83px;
+  height: 19px;
+  left: 40px;
+  top: 12px;
+  background: url("../img/menuBtn1_copy.png") no-repeat; }
+
+#menuBtn2 {
+  top: 103px; }
+
+#menuBtn2_copy {
+  width: 46px;
+  height: 14px;
+  left: 58px;
+  top: 15px;
+  background: url("../img/menuBtn2_copy.png") no-repeat; }
+
+#menuBtn3 {
+  top: 151px; }
+
+#menuBtn3_copy {
+  width: 67px;
+  height: 18px;
+  left: 48px;
+  top: 13px;
+  background: url("../img/menuBtn3_copy.png") no-repeat; }
+
+/*End Frame*/
+#endFrame_BG {
+  background-color: #000000; }
+
+#logo {
+  background: url("../img/logo.png") no-repeat; }
+
+#endFrame_copy {
+  background: url("../img/endFrame_copy.png") no-repeat; }
+
+#backBtn {
+  position: absolute;
+  width: 100px;
+  height: 46px;
+  top: 5px;
+  left: 859px;
+  background: url("../img/backBtn.png") no-repeat;
+  cursor: pointer; }
+
+#replayBtn {
+  position: absolute;
+  top: 19px;
+  right: 22px;
+  cursor: pointer; }
+
+canvas {
+  width: 300px;
+  height: 250px;
+  position: absolute; }
+
+#morph3DModel {
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  left: 304px; }
+
+#cta {
+  background: url("../img/cta.png") no-repeat; }

@@ -1,0 +1,12 @@
+{
+  "generator-craft-banner": {
+    "nameSpace": "CraftWW",
+    "publisher": "flashtalking",
+    "bannerName": "O365_DWCInteractiveDT_USA_970x250_RMB_O365_All_NA_Standard_HIS_LM_NA_1",
+    "width": "970",
+    "height": "250",
+    "size": "10000",
+    "includeFallbackIE": false,
+    "type": "richload"
+  }
+}
